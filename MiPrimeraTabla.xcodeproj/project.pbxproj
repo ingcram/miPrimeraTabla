@@ -58,11 +58,8 @@
 		A2A35DE81F7330320028FED9 /* MiPrimeraTabla */ = {
 			isa = PBXGroup;
 			children = (
-				A2A35E001F73303A0028FED9 /* New Group */,
-				A2A35DEC1F7330320028FED9 /* AppDelegate.h */,
-				A2A35DED1F7330320028FED9 /* AppDelegate.m */,
-				A2A35DEF1F7330320028FED9 /* ViewController.h */,
-				A2A35DF01F7330320028FED9 /* ViewController.m */,
+				A2A35E011F7330400028FED9 /* Controllers */,
+				A2A35E001F73303A0028FED9 /* Main */,
 				A2A35DF21F7330320028FED9 /* Main.storyboard */,
 				A2A35DF51F7330320028FED9 /* Assets.xcassets */,
 				A2A35DF71F7330330028FED9 /* LaunchScreen.storyboard */,
@@ -80,11 +77,22 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A2A35E001F73303A0028FED9 /* New Group */ = {
+		A2A35E001F73303A0028FED9 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A2A35DEC1F7330320028FED9 /* AppDelegate.h */,
+				A2A35DED1F7330320028FED9 /* AppDelegate.m */,
 			);
-			name = "New Group";
+			name = Main;
+			sourceTree = "<group>";
+		};
+		A2A35E011F7330400028FED9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A2A35DEF1F7330320028FED9 /* ViewController.h */,
+				A2A35DF01F7330320028FED9 /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
