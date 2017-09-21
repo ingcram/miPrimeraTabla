@@ -13,6 +13,9 @@
 		A2A35DF41F7330320028FED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A35DF21F7330320028FED9 /* Main.storyboard */; };
 		A2A35DF61F7330320028FED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A35DF51F7330320028FED9 /* Assets.xcassets */; };
 		A2A35DF91F7330330028FED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A35DF71F7330330028FED9 /* LaunchScreen.storyboard */; };
+		A2A35E061F7336E20028FED9 /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A35E041F7336E20028FED9 /* cellMainTable.m */; };
+		A2A35E071F7336E20028FED9 /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E051F7336E20028FED9 /* cellMainTable.xib */; };
+		A2A35E0D1F733A370028FED9 /* GOT in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E0C1F733A370028FED9 /* GOT */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,10 @@
 		A2A35DF51F7330320028FED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2A35DF81F7330330028FED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2A35DFA1F7330330028FED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A35E031F7336E20028FED9 /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
+		A2A35E041F7336E20028FED9 /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
+		A2A35E051F7336E20028FED9 /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
+		A2A35E0C1F733A370028FED9 /* GOT */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GOT; path = MiPrimeraTabla/GOT; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,7 @@
 		A2A35DDD1F7330320028FED9 = {
 			isa = PBXGroup;
 			children = (
+				A2A35E0C1F733A370028FED9 /* GOT */,
 				A2A35DE81F7330320028FED9 /* MiPrimeraTabla */,
 				A2A35DE71F7330320028FED9 /* Products */,
 			);
@@ -58,6 +66,7 @@
 		A2A35DE81F7330320028FED9 /* MiPrimeraTabla */ = {
 			isa = PBXGroup;
 			children = (
+				A2A35E021F73360F0028FED9 /* Cells */,
 				A2A35E011F7330400028FED9 /* Controllers */,
 				A2A35E001F73303A0028FED9 /* Main */,
 				A2A35DF21F7330320028FED9 /* Main.storyboard */,
@@ -93,6 +102,16 @@
 				A2A35DF01F7330320028FED9 /* ViewController.m */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A2A35E021F73360F0028FED9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A2A35E031F7336E20028FED9 /* cellMainTable.h */,
+				A2A35E041F7336E20028FED9 /* cellMainTable.m */,
+				A2A35E051F7336E20028FED9 /* cellMainTable.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,9 +172,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A35E0D1F733A370028FED9 /* GOT in Resources */,
 				A2A35DF91F7330330028FED9 /* LaunchScreen.storyboard in Resources */,
 				A2A35DF61F7330320028FED9 /* Assets.xcassets in Resources */,
 				A2A35DF41F7330320028FED9 /* Main.storyboard in Resources */,
+				A2A35E071F7336E20028FED9 /* cellMainTable.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +190,7 @@
 				A2A35DF11F7330320028FED9 /* ViewController.m in Sources */,
 				A2A35DEE1F7330320028FED9 /* AppDelegate.m in Sources */,
 				A2A35DEB1F7330320028FED9 /* main.m in Sources */,
+				A2A35E061F7336E20028FED9 /* cellMainTable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +349,7 @@
 				A2A35DFF1F7330330028FED9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
