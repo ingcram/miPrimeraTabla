@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetailViewController.h"
+
 
 @interface ViewController : UIViewController
 
+@property (strong, nonatomic) UIImage *currentImage;
+@property (strong, nonatomic) NSURL *heroeURL;
 
 @end
 

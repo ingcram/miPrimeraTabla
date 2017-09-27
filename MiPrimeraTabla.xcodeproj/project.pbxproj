@@ -15,7 +15,12 @@
 		A2A35DF91F7330330028FED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A35DF71F7330330028FED9 /* LaunchScreen.storyboard */; };
 		A2A35E061F7336E20028FED9 /* cellMainTable.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A35E041F7336E20028FED9 /* cellMainTable.m */; };
 		A2A35E071F7336E20028FED9 /* cellMainTable.xib in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E051F7336E20028FED9 /* cellMainTable.xib */; };
-		A2A35E0D1F733A370028FED9 /* GOT in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E0C1F733A370028FED9 /* GOT */; };
+		A2A35E161F734BC90028FED9 /* aryastark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E111F734BC90028FED9 /* aryastark.jpg */; };
+		A2A35E171F734BC90028FED9 /* cersei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E121F734BC90028FED9 /* cersei.jpg */; };
+		A2A35E181F734BC90028FED9 /* daenerys.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E131F734BC90028FED9 /* daenerys.jpg */; };
+		A2A35E191F734BC90028FED9 /* jon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E141F734BC90028FED9 /* jon.jpg */; };
+		A2A35E1A1F734BC90028FED9 /* tyrion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A2A35E151F734BC90028FED9 /* tyrion.jpg */; };
+		A2DEB9C91F7C5A0A002B7A65 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2DEB9C81F7C5A0A002B7A65 /* DetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +37,13 @@
 		A2A35E031F7336E20028FED9 /* cellMainTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellMainTable.h; sourceTree = "<group>"; };
 		A2A35E041F7336E20028FED9 /* cellMainTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellMainTable.m; sourceTree = "<group>"; };
 		A2A35E051F7336E20028FED9 /* cellMainTable.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellMainTable.xib; sourceTree = "<group>"; };
-		A2A35E0C1F733A370028FED9 /* GOT */ = {isa = PBXFileReference; lastKnownFileType = folder; name = GOT; path = MiPrimeraTabla/GOT; sourceTree = "<group>"; };
+		A2A35E111F734BC90028FED9 /* aryastark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aryastark.jpg; sourceTree = "<group>"; };
+		A2A35E121F734BC90028FED9 /* cersei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cersei.jpg; sourceTree = "<group>"; };
+		A2A35E131F734BC90028FED9 /* daenerys.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = daenerys.jpg; sourceTree = "<group>"; };
+		A2A35E141F734BC90028FED9 /* jon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jon.jpg; sourceTree = "<group>"; };
+		A2A35E151F734BC90028FED9 /* tyrion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tyrion.jpg; sourceTree = "<group>"; };
+		A2DEB9C71F7C5A0A002B7A65 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A2DEB9C81F7C5A0A002B7A65 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,7 +60,6 @@
 		A2A35DDD1F7330320028FED9 = {
 			isa = PBXGroup;
 			children = (
-				A2A35E0C1F733A370028FED9 /* GOT */,
 				A2A35DE81F7330320028FED9 /* MiPrimeraTabla */,
 				A2A35DE71F7330320028FED9 /* Products */,
 			);
@@ -66,6 +76,7 @@
 		A2A35DE81F7330320028FED9 /* MiPrimeraTabla */ = {
 			isa = PBXGroup;
 			children = (
+				A2A35E101F734BC90028FED9 /* GOT */,
 				A2A35E021F73360F0028FED9 /* Cells */,
 				A2A35E011F7330400028FED9 /* Controllers */,
 				A2A35E001F73303A0028FED9 /* Main */,
@@ -98,6 +109,8 @@
 		A2A35E011F7330400028FED9 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				A2DEB9C71F7C5A0A002B7A65 /* DetailViewController.h */,
+				A2DEB9C81F7C5A0A002B7A65 /* DetailViewController.m */,
 				A2A35DEF1F7330320028FED9 /* ViewController.h */,
 				A2A35DF01F7330320028FED9 /* ViewController.m */,
 			);
@@ -112,6 +125,18 @@
 				A2A35E051F7336E20028FED9 /* cellMainTable.xib */,
 			);
 			name = Cells;
+			sourceTree = "<group>";
+		};
+		A2A35E101F734BC90028FED9 /* GOT */ = {
+			isa = PBXGroup;
+			children = (
+				A2A35E111F734BC90028FED9 /* aryastark.jpg */,
+				A2A35E121F734BC90028FED9 /* cersei.jpg */,
+				A2A35E131F734BC90028FED9 /* daenerys.jpg */,
+				A2A35E141F734BC90028FED9 /* jon.jpg */,
+				A2A35E151F734BC90028FED9 /* tyrion.jpg */,
+			);
+			path = GOT;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,11 +197,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2A35E0D1F733A370028FED9 /* GOT in Resources */,
+				A2A35E171F734BC90028FED9 /* cersei.jpg in Resources */,
 				A2A35DF91F7330330028FED9 /* LaunchScreen.storyboard in Resources */,
 				A2A35DF61F7330320028FED9 /* Assets.xcassets in Resources */,
+				A2A35E181F734BC90028FED9 /* daenerys.jpg in Resources */,
+				A2A35E161F734BC90028FED9 /* aryastark.jpg in Resources */,
+				A2A35E191F734BC90028FED9 /* jon.jpg in Resources */,
 				A2A35DF41F7330320028FED9 /* Main.storyboard in Resources */,
 				A2A35E071F7336E20028FED9 /* cellMainTable.xib in Resources */,
+				A2A35E1A1F734BC90028FED9 /* tyrion.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2DEB9C91F7C5A0A002B7A65 /* DetailViewController.m in Sources */,
 				A2A35DF11F7330320028FED9 /* ViewController.m in Sources */,
 				A2A35DEE1F7330320028FED9 /* AppDelegate.m in Sources */,
 				A2A35DEB1F7330320028FED9 /* main.m in Sources */,
